@@ -1,0 +1,26 @@
+.skills-details{
+    padding: 10px 20px;
+    background: #E5E5E5;
+    color: black;
+    /* border: 1px solid white;
+    backdrop-filter: blur(50px); */
+    max-width: 60rem;
+    margin-inline: auto;
+    border-radius: 10px;
+
+    & .softwares > div {
+        margin-top: 20px;
+    }
+
+    & .softwares > div > .icon-image{
+        width: 100px;
+    }
+
+
+    & .softwares > * > hr{
+        /* border: 3px solid white; */
+        height: 7px;
+        background-color: #FCA311;
+        border-radius: 50px;
+    }
+}

@@ -1,0 +1,133 @@
+.navbar{
+    color: white;
+    /* min-width: 450px; */
+    padding: 5px 10px;
+    background: transparent;
+    backdrop-filter: blur(50px) !important;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-inline: 32%;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+    min-width: 29rem;
+    z-index: 100;
+
+    .menu-icon{
+        /* position: fixed; */
+        display: none;
+        top: 5%;
+        right: 0;
+    }
+
+    
+    
+    
+
+    ul{
+        display: flex;
+        cursor: pointer;
+        gap: 30px;
+
+        .nav-bg{
+            background: orange;
+            color: black;
+        }
+        
+
+        li{
+            font-weight: 550;
+            padding: 10px 20px;
+            font-size: 17px;
+            border-radius: 8px;
+            transition: .5s;
+
+
+            /* &:hover{
+                background: orange;
+                color: black;
+            } */
+        }
+
+    }
+}
+
+
+@media (max-width:1000px) {
+    .navbar{
+        margin-inline: 26%;
+    }
+}
+@media (max-width:800px) {
+    .navbar{
+        margin-inline: 20%;
+    }
+}
+@media (max-width:700px) {
+    .navbar{
+        padding: 0;
+        border: none;
+        margin-inline: 50px;
+        /* overflow-x: hidden; */
+        
+    }
+    .navbar ul{
+        position: absolute;
+        display: none;
+
+        /* & li:hover{
+            background-color: white;
+            color: black;
+        } */
+
+        &.active{
+            background-color: #e5e5e5;
+            color: black;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            padding: 10px 30px;
+            top: 10vh;
+            left: 6vw;
+            border-radius: 15px;
+            display: block;
+            align-items: center;
+            /* outline: 20px dashed #d08203; */
+            outline-width: 5px;
+            height: 27rem;
+            width: 15rem;
+            line-height: 80px;
+            text-align: center;
+            
+        }
+    }
+
+    .navbar .menu-icon{
+        position: fixed;
+        background-color: #d08203;
+        border-radius: 50%;
+        padding: 10px;
+        top: 20px;
+        right: 0;
+        display: block;
+        text-align: center;
+        width: 50px;
+        height: auto;
+        cursor: pointer;
+        min-width: fit-content;
+    }
+}
+
+
+@media (max-width:700px){
+    .navbar .menu-icon{
+        left: 80%;
+    }
+}
+@media (max-width:500px){
+    .navbar .menu-icon{
+        left: 50%;
+    }
+}
+

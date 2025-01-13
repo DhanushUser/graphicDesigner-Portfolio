@@ -1,0 +1,98 @@
+.about-detail{
+    background-color: #E5E5E5;
+    max-width: 25rem !important;
+    border-radius: 10px;
+    flex-wrap: nowrap;
+
+
+    & button{
+        background-color: #FCA311;
+    }
+}
+
+.exp-row{
+    background: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.90)),url('../../assets/about-bg.jpg');
+    width: 100%;
+    min-height: fit-content;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.clients{
+
+
+    & .client-row {
+
+        & .section{
+            margin-inline: 50px;
+            margin-bottom: 20px;
+        }
+        & h2{
+            font-weight: 600;
+            font-size: 26px;
+            padding: 5px 50px;
+            background-color: #FCA311;
+            color: #14213D;
+            text-align: center;
+            
+        }
+        & p{
+            font-size: 17px;
+            text-align: center;
+            color: white;
+        }
+    }
+}
+
+
+@media (max-width:650px){
+    .about-detail{
+        margin-bottom: 20px;
+    }
+
+    .exp-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        & p{
+            font-size: 11px;
+            margin-bottom: 30px;
+        }
+
+
+        & .exp{
+            max-width: 100%;
+        }
+
+        & hr{
+            display: none;
+        }
+
+        & .clients{
+            margin-top: 30px;
+        }
+    }
+}
+
+
+@media (max-width:750px){
+    .exp-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    & p{
+        font-size: 12px;
+        /* margin-bottom: 30px; */
+    }
+
+
+    & .exp{
+        max-width: 100%;
+    }
+}

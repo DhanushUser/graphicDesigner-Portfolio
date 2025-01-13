@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+/*  color code
+
+1 -- #FCA311  orange
+2 -- #E5E5E5  grey
+3 -- #14213D  dark blue
+4 -- #000000 black
+5 -- #FFFFFF white
+
+*/
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  scroll-behavior: smooth;
+}
+body{
+  /* background: linear-gradient(to right, #243B55, #141E30);  */
+  background: #14213D;
+  height: 100vh;
+  width: 100%;
+}
+
+.title{
+  background: linear-gradient(to right, #FCA311, #fcf6ba,#FCA311);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .c-btn{
+  background: linear-gradient(to right, #FCA311, #fcf6ba,#FCA311);
+  color: black;
+} */

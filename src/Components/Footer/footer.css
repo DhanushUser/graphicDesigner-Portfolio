@@ -1,0 +1,16 @@
+
+@media (max-width:650px){
+    .footer > div {
+
+        & img{
+            width: 40px;
+        }
+        &  p{
+            margin-top: 25px;
+            font-size: 12px;
+        }
+        & h3{
+            font-size: 13px;
+        }
+    }
+}
