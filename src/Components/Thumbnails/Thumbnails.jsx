@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './thumb.css'
 
 import {  thumbnail } from "../../assets/assets";
@@ -12,7 +12,15 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Thumbnails = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div id='thumbnail' className="thumbnails my-[100px]">
       <Swiper
@@ -37,7 +45,7 @@ const Thumbnails = () => {
       >
         {thumbnail.map((item, index) => (
           <SwiperSlide key={item.id || index}> 
-            <div className="img-container  flex justify-center items-center">
+            <div data-aos="fade-right" className="img-container  flex justify-center items-center">
               <img src={item.t_img} alt="" />
             </div>
           </SwiperSlide>

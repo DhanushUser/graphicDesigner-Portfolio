@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./social.css";
 import { social } from "../../assets/assets";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,7 +11,16 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const SocialMedia = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div id="social" className="social my-[100px]">
       <Swiper
@@ -36,7 +45,8 @@ const SocialMedia = () => {
       >
         {social.map((item, index) => (
           <SwiperSlide key={item.id || index}> 
-            <div className="img-container  flex justify-center items-center">
+            <div data-aos="zoom-in"
+               className="img-container  flex justify-center items-center">
               <img src={item.s_img} alt="" />
             </div>
           </SwiperSlide>

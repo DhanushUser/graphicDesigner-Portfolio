@@ -1,6 +1,7 @@
 import React from 'react'
 import './hero.css'
 import hero_image from '../../assets/hero-pic.png'
+import Resume from '../../assets/MyResume.pdf'
 
 
 const Hero = () => {
@@ -27,7 +28,7 @@ const Hero = () => {
 
           <div className="links my-4">
             <a target='_blank' href="https://www.instagram.com/dhanush_designs?utm_source=qr&igsh=MXc5NHZvcWt3cDNlaw==" className='c-btn'>Instagram</a>
-            <a href="" className='c-btn'>Resume</a>
+            <a download={"dhanushResume"} href={Resume} className='c-btn'>Resume</a>
           </div>
         </div>
       </div>

@@ -40,3 +40,28 @@ body{
   background: linear-gradient(to right, #FCA311, #fcf6ba,#FCA311);
   color: black;
 } */
+
+
+@keyframes pulse {
+  0%{
+      transform: translateY(0);
+  }
+  50%{
+      transform: translateY(-10px);
+  }
+  100%{
+      transform: translateY(0);
+  }
+}
+
+
+@keyframes slideDown {
+  0%{
+      opacity: 0;
+      transform: translateY(-300px);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

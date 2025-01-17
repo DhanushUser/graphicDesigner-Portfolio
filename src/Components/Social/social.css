@@ -1,5 +1,6 @@
 .img-container > img{
     max-height: 550px;
+    
     max-width: 100%;
     object-fit: cover;
 }
