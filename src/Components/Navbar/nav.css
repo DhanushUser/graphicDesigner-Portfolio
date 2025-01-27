@@ -21,7 +21,7 @@
         /* position: fixed; */
         display: none;
         top: 5%;
-        right: 0;
+        
     }
 
     
@@ -120,8 +120,8 @@
 @media (max-width:550px){
     
     .navbar{
-        min-width: 70%;
-        
+        min-width: 100px; 
+        /* overflow-x: hidden; */
     }
 }
 

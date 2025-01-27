@@ -25,10 +25,10 @@
 
     & .client-row {
 
-        & .section{
-            margin-inline: 50px;
-            margin-bottom: 20px;
-        }
+        /* & .section{
+            /* margin-inline: 50px;
+            margin-bottom: 20px; */
+         
         & h2{
             font-weight: 600;
             font-size: 26px;

@@ -15,6 +15,7 @@ import s_14 from '../assets/social/s_14.jpg'
 import s_15 from '../assets/social/s_15.jpg'
 import s_16 from '../assets/social/s_16.jpg'
 import s_17 from '../assets/social/s_17.jpg'
+import s_18 from '../assets/social/s_18.jpg'
 
 
 import t_1 from '../assets/Thumbnails/t_1.jpg'
@@ -25,6 +26,7 @@ import t_5 from '../assets/Thumbnails/t_5.png'
 import t_6 from '../assets/Thumbnails/t_6.jpg'
 import t_7 from '../assets/Thumbnails/t_7.jpg'
 import t_8 from '../assets/Thumbnails/t_8.jpg'
+import t_9 from '../assets/Thumbnails/t_9.jpg'
 
 import c_1 from '../assets/Client/c_1.png'
 import c_2 from '../assets/Client/c_2.jpg'
@@ -115,6 +117,10 @@ export const social = [
         s_id:"17",
         s_img: s_17,
     },
+    {
+        s_id:"18",
+        s_img: s_18,
+    },
 ]
 
 export const thumbnail = [
@@ -136,7 +142,7 @@ export const thumbnail = [
     },
     {
         t_id:"5",
-        t_img:t_5,
+        t_img:t_9,
     },
     {
         t_id:"6",
@@ -149,6 +155,10 @@ export const thumbnail = [
     {
         t_id:"8",
         t_img:t_8,
+    },
+    {
+        t_id:"9",
+        t_img:t_5,
     },
 ]
 
