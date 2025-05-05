@@ -2,6 +2,7 @@ import React from 'react'
 import './hero.css'
 import hero_image from '../../assets/hero-pic.png'
 import Resume from '../../assets/MyResume.pdf'
+import bg from '../../assets/bg.jpg'
 
 
 const Hero = () => {

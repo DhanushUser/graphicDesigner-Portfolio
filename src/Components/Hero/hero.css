@@ -8,6 +8,7 @@
     background-size: cover;
     overflow-x: hidden;
     background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(../../assets/hero-bg-1.jpg);
+    
 }
 .hero-banner{
     width: 32rem;
